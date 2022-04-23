@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Billy - MainMenuScene.unity
+    guid: 489ef5c965c8777469a4df651525ad60
+  - enabled: 1
+    path: Assets/Scenes/Billy - TempPlayScene.unity
+    guid: 3fdef77e5828bf447bac85ab523922d7
   m_configObjects: {}

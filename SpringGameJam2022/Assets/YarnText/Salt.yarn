@@ -1,0 +1,57 @@
+﻿title: Salt
+---
+Sodium: …
+Chlorine: …
+Scientist: Sodium, this is Chlorine.
+Sodium: Yes, I’m well aware of her.
+Chlorine: Ditto.
+Scientist: (Thinking) Uh oh. They don’t seem to like each other very much.
+-> Let them be
+    Chlorine: …
+    Sodium: …
+    Chlorine: I’m just going to go now.
+    Sodium: Ditto.
+    failstate
+-> Intervene
+    <<jump Intervene>>
+===
+title: Intervene
+---
+Scientist: Okay, there’s quite clearly some past beef between you.
+Sodium: Indeed.
+Chlorine: You would say that, wouldn’t you, 50D1UM?
+Sodium: Yes I would, C1H0R!N3. Your ability to ruin my KD is incredible, especially since we’re on the same team!
+Scientist: (Thinking) Oh, this has something to do with video games, doesn’t it?
+Chlorine: Op is expensive! I’m not going to pay for your gear whenever you ask for it!
+Sodium: Says the one who buys Odin every chance she gets! It’s not even a good gun!
+Chlorine: Spraying and praying is an important part of my tactical kit!
+Sodium: That’s because you couldn’t aim if your life depended on it!
+Chlorine: OH YOU WANT TO GO RIGHT NOW I CAN GO RIGHT NOW!
+Sodium: 1v1 ME IN BROFORCE I DARE YOU!
+Chlorine: OH IT’S ON YOU IDIOTIC ALKALI!
+Narration: Sodium quickly turns on his Xbox and hands Chlorine a controller. In no time at all they’re duking it out.
+Scientist: (Thinking) Wait… isn’t Broforce a co-op game?
+Narration: “50D1UM” and “C1H0R!N3” seem to be attempting to shoot the ground below each other in an effort to make each other fall to their death. 
+Narration: Neither has a character well suited towards this task, and as such they’re mostly just shooting straight at each other hoping that the inaccuracy of their guns causes the bullets to hit the ground.
+-> Let them be
+	Scientist: (Thinking) Surprisingly enough they seem to be enjoying each other’s company now that they’re trying to ruthlessly eliminate one another.
+	Chlorine: Only two blocks down before your demise, you worthless sod!
+	Sodium: The same can be said for you, piss disinfectant!
+	Narration: They both shoot at the ground, killing each other and failing the mission, because as I will remind you, Broforce is a co-op game. 
+	Sodium: Unfair… I want a rematch!
+	Chlorine: You’re on!
+-> Intervene
+	Scientist: Look, you guys really need to work this anger out, it’s not producti…
+	Chlorine: Shut up you lab coat dweeb! Look, this is you.
+	Narration: Chlorine takes a third controller out and adds another character to their party, as both Chlorine and Sodium stop shooting each other and instead prioritize this new character.
+	Scientist: …
+	Narration: With their powers combined, both of them trounced the poor idle character
+	Chlorine: Haha, suck it nerd!
+	Narration: While Chlorine is busy taunting her lab coat laden victim she neglects to notice Sodium taking the opportunity to knock Chlorine into the void.
+	Chlorine: Ah no wait! Jerk! I want a rematch!
+	Sodium: You’ll just lose again, like you always do.
+	Chlorine: Yeah right! Fight me, you coward!
+
+Narration: And so, Sodium and Chlorine continued to play games through the afternoon, ordering takeout for dinner and just generally being the incredibly toxic gamers they were always meant to be. Together.
+winstate
+===
