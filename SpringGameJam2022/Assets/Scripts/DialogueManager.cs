@@ -29,6 +29,12 @@ public class DialogueManager : MonoBehaviour
     public Sprite hydrogenNeutralImg;
     public Sprite hydrogenSadImg;
 
+    public Sprite lonesonAngryImg;
+    public Sprite lonesonFlushedImg;
+    public Sprite lonesonHappyImg;
+    public Sprite lonesonNeutralImg;
+    public Sprite lonesonSadImg;
+
     public GameObject left0Img;
     public GameObject left1Img;
     public GameObject left2Img;
@@ -81,11 +87,19 @@ public class DialogueManager : MonoBehaviour
         spriteList3.Add(carbonNeutralImg);
         spriteList3.Add(carbonSadImg);
 
+        List<Sprite> spriteList4 = new List<Sprite>();
+        spriteList4.Add(carbonAngryImg);
+        spriteList4.Add(carbonFlushedImg);
+        spriteList4.Add(carbonHappyImg);
+        spriteList4.Add(carbonNeutralImg);
+        spriteList4.Add(carbonSadImg);
+
         actorList = new List<List<Sprite>>();
         actorList.Add(spriteList0);
         actorList.Add(spriteList1);
         actorList.Add(spriteList2);
         actorList.Add(spriteList3);
+        actorList.Add(spriteList4);
 
         actorPosition = new List<int>();
         actorPosition.Add(-1);
@@ -179,7 +193,7 @@ public class DialogueManager : MonoBehaviour
             case "Hydrogen":
                 actorIndex = 0;
                 break;
-            case "Chlorine":
+            case "Chloride":
                 actorIndex = 1;
                 break;
             case "Sodium":
@@ -187,6 +201,9 @@ public class DialogueManager : MonoBehaviour
                 break;
             case "Carbon":
                 actorIndex = 3;
+                break;
+            case "Loneson":
+                actorIndex = 4;
                 break;
         }
     }
@@ -197,12 +214,14 @@ public class DialogueManager : MonoBehaviour
         {
             case "Hydrogen":
                 return 0;
-            case "Chlorine":
+            case "Chloride":
                 return 1;
             case "Sodium":
                 return 2;
             case "Carbon":
                 return 3;
+            case "Loneson":
+                return 4;
         }
         return -1;
     }
@@ -262,7 +281,7 @@ public class DialogueManager : MonoBehaviour
 
     public void setSavedActor()
     {
-        if (actorIndex < 0 || actorIndex > 3) actorIndex = 0;
+        if (actorIndex < 0 || actorIndex > 4) actorIndex = 0;
         if (expressionIndex < 0 || expressionIndex > 4) expressionIndex = 0;
         savedPosition.SetActive(true);
         savedPosition.GetComponent<Image>().sprite = actorList[actorIndex][expressionIndex];
@@ -271,7 +290,7 @@ public class DialogueManager : MonoBehaviour
     public void setSavedActorTo(int x)
     {
         if (x < 0 || x > 6) return;
-        if (actorIndex < 0 || actorIndex > 3) actorIndex = 0;
+        if (actorIndex < 0 || actorIndex > 4) actorIndex = 0;
         if (expressionIndex < 0 || expressionIndex > 4) expressionIndex = 0;
         positionList[x].SetActive(true);
         positionList[x].GetComponent<Image>().sprite = actorList[actorIndex][expressionIndex];
@@ -321,7 +340,7 @@ public class DialogueManager : MonoBehaviour
     public void setPositionCmd(string actor, string position)
     {
         int ai = getActorIndex(actor);
-        if (ai < 0 || ai > 3) return;
+        if (ai < 0 || ai > 4) return;
         int pi = getPositionIndex(position);
         int apos = findActor(ai);
         if (apos != -1) clearPosition(apos);
@@ -332,7 +351,7 @@ public class DialogueManager : MonoBehaviour
     public void setExpressionCmd(string actor, string expression)
     {
         int ai = getActorIndex(actor);
-        if (ai < 0 || ai > 3) return; 
+        if (ai < 0 || ai > 4) return; 
         int ei = getExpression(expression);
         int apos = findActor(ai);
         if (apos != -1) clearPosition(apos);
