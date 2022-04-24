@@ -7,9 +7,6 @@ tags:
 <<setPosition Loneson Left1>>
 <<setExpression Carbon Happy>>
 <<setExpression Loneson Neutral>>
-<<setFocus Loneson false>>
-<<setFocus Carbon true>>
-<<setFocus Chloride true>>
 Carbon: Hey Hydrogen, long time no see!
 Hydrogen: Oh hey, Carbon. 
 Narration: Hydrogen seems to be a bit wary of Carbon for some reason. Not enough to actually be truly scared of her, but enough to want to keep a slight distance.
@@ -25,12 +22,10 @@ Carbon: I’ll take that as a yes.
 <<setPosition Loneson Left1>>
 <<setExpression Carbon Flushed>>
 <<setExpression Hydrogen Flushed>>
-<<setFocus Loneson true>>
 Narration: Loneson, Carbon, and Hydrogen start walking. They have so many options. Either empty white background, or empty white background. Truly, Loneson’s mind is a fascinating place.
 -> Go to the empty white background.
 -> Go to the empty white background.
 Narration: Good choice! You go to the \[empty white background\], and see all of the \[empty white void\].
-<<setFocus Loneson false>>
 <<setExpression Carbon Happy>>
 Carbon: My, this certainly is a wonderful \[empty white void\], isn’t it Hydrogen?
 <<setExpression Hydrogen Sad>>
@@ -42,7 +37,6 @@ Narration: Hydrogen just shivered and took out his blunt. He desperately wanted 
 Carbon: You know, smoking is pretty bad for your lungs.
 Hydrogen: It's weed. Weed is all natural.
 Carbon: Not how it works but fine…
-<<setFocus Loneson true>>
 Loneson, Carbon, and Hydrogen continue walking. You can either go to the empty white background, or the empty white background.
 -> Go to the empty white background.
 -> Go to the empty white background.
@@ -53,7 +47,6 @@ Loneson, Carbon, and Hydrogen continue walking. You can either go to the empty w
 <<setExpression Carbon Flushed>>
 <<setExpression Hydrogen Flushed>>
 Narration: Good choice! You go to the \[empty white background\], and see all of the \[empty white void\].
-<<setFocus Loneson false>>
 <<setExpression Hydrogen Happy>>
 Hydrogen: You know, I’m starting to like this \[empty white void\].
 <<setExpression Carbon Neutral>>
@@ -67,7 +60,6 @@ Carbon: … Fine …
 <<setExpression Carbon Happy>>
 <<setExpression Hydrogen Happy>>
 Narration: Carbon and Hydrogen start talking about the logistics of planting weed in the \[empty white void \]. They seem to have hit it off quite well.
-<<setFocus Loneson true>>
 Loneson: (Thinking) Wow, I really didn’t need to do much for this one. I guess that is fair seeing as Sodium and especially Chloride aren’t around right now.
 Narration: And so they completed their walk with a trip to the \[empty white background\], seeing the \[empty white void\]. Truly a wonderful and beautiful place, and a nice place to top off this successful (and for once peaceful) date.
 <<succeeded C2H4 Ethylene>>

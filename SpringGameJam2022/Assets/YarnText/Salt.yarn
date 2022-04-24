@@ -7,35 +7,16 @@
 <<setExpression Sodium Neutral>>
 <<setExpression Chloride Neutral>>
 <<setExpression Loneson Neutral>>
-<<setFocus Loneson false>>
-<<setFocus Sodium true>>
-<<setFocus Chloride false>>
 Sodium: …
-<<setFocus Sodium false>>
-<<setFocus Chloride true>>
 Chloride: …
-<<setFocus Chloride false>>
-<<setFocus Loneson true>>
 Loneson: Sodium, this is Chloride.
-<<setFocus Chloride true>>
-<<setFocus Sodium true>>
 Sodium: Yes, I’m well aware of her.
 Chloride: Ditto.
-<<setFocus Chloride false>>
-<<setFocus Sodium false>>
 Loneson: (Thinking) Uh oh. They don’t seem to like each other very much.
 -> Let them be
-	<<setFocus Loneson false>>
-	<<setFocus Chloride true>>
     Chloride: …
-	<<setFocus Sodium true>>
-	<<setFocus Chloride false>>
     Sodium: …
-	<<setFocus Sodium false>>
-	<<setFocus Chloride true>>
     Chloride: I’m just going to go now.
-	<<setFocus Sodium true>>
-	<<setFocus Chloride true>>
     Sodium: Ditto.
     <<failed>>
 -> Intervene
@@ -44,10 +25,7 @@ Loneson: (Thinking) Uh oh. They don’t seem to like each other very much.
 title: Salt_Intervene
 ---
 Loneson: Okay, there’s quite clearly some past beef between you.
-<<setFocus Loneson false>>
-<<setFocus Sodium true>>
 Sodium: Indeed.
-<<setFocus Chloride true>>
 Chloride: You would say that, wouldn’t you, 50D1UM?
 <<setExpression Sodium Angry>>
 Sodium: Yes I would, C1H0R!N3. Your ability to ruin my KD is incredible, especially since we’re on the same team!
@@ -65,45 +43,25 @@ Chloride: OH IT’S ON YOU IDIOTIC ALKALI!
 <<setPosition Chloride Right1>>
 <<setPosition Loneson Left2>>
 Narration: Sodium quickly turns on his Xbox and hands Chloride a controller. In no time at all they’re duking it out.
-<<setFocus Loneson true>>
-<<setFocus Sodium false>>
-<<setFocus Chloride false>>
 Loneson: (Thinking) Wait… isn’t Broforce a co-op game?
-<<setFocus Loneson false>>
-<<setFocus Sodium true>>
-<<setFocus Chloride true>>
 Narration: “50D1UM” and “C1H0R!N3” seem to be attempting to shoot the ground below each other in an effort to make each other fall to their death. 
 Narration: Neither has a character well suited towards this task, and as such they’re mostly just shooting straight at each other hoping that the inaccuracy of their guns causes the bullets to hit the ground.
 -> Let them be
-	<<setFocus Loneson true>>
-	<<setFocus Sodium false>>
-	<<setFocus Chloride false>>
 	Loneson: (Thinking) Surprisingly enough they seem to be enjoying each other’s company now that they’re trying to ruthlessly eliminate one another.
-	<<setFocus Loneson false>>
-	<<setFocus Chloride true>>
 	Chloride: Only two blocks down before your demise, you worthless sod!
-	<<setFocus Sodium true>>
 	Sodium: The same can be said for you, piss disinfectant!
 	Narration: They both shoot at the ground, killing each other and failing the mission, because as I will remind you, Broforce is a co-op game. 
 	Sodium: Unfair… I want a rematch!
 	Chloride: You’re on!
 -> Intervene
-	<<setFocus Loneson true>>
-	<<setFocus Sodium false>>
-	<<setFocus Chloride false>>
 	Loneson: Look, you guys really need to work this anger out, it’s not producti…
-	<<setFocus Sodium true>>
-	<<setFocus Chloride true>>
 	<<setExpression Loneson Sad>>
 	Chloride: Shut up you lab coat dweeb! Look, this is you.
 	Narration: Chloride takes a third controller out and adds another character to their party, as both Chloride and Sodium stop shooting each other and instead prioritize this new character.
 	Loneson: …
 	Narration: With their powers combined, both of them trounced the poor idle character.
-	<<setFocus Sodium false>>
 	<<setExpression Chloride Happy>>
 	Chloride: Haha, suck it nerd!
-	<<setFocus Loneson false>>
-	<<setFocus Sodium true>>
 	Narration: While Chloride is busy taunting her lab coat laden victim she neglects to notice Sodium taking the opportunity to knock Chloride into the void.
 	<<setExpression Chloride Angry>>
 	<<setExpression Sodium Happy>>

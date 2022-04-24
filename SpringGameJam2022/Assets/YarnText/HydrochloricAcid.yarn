@@ -8,9 +8,6 @@ tags:
 <<setExpression Hydrogen Neutral>>
 <<setExpression Chloride Happy>>
 <<setExpression Loneson Neutral>>
-<<setFocus Loneson true>>
-<<setFocus Hydrogen true>>
-<<setFocus Chloride true>>
 Chloride: Hey, Hydrogen!
 <<setExpression Hydrogen Sad>>
 Narration: Hydrogen immediately freezes up upon hearing Chloride’s voice. The sound is clearly something he has heard before, and not liked.
@@ -23,7 +20,6 @@ Chloride: Well, Mr. Labman here tells me I should get with you today. And I know
 Loneson: Well yes, I was thinking about a nice movie or perhaps, a dinner. That was what I was going to do tonight…
 Chloride: We’ll rob a bank!
 <<setExpression Loneson Angry>>
-<<setFocus Hydrogen false>>
 Loneson: What?
 Narration: Unlike Loneson, Hydrogen doesn’t seem to make any reaction to this whatsoever. It seems as if he is used to this at this point, and is more relieved that Chloride’s plan doesn’t involve his suffering for once.
 -> Loneson: “I’m going to put a stop to you right there”
@@ -32,7 +28,6 @@ Narration: Unlike Loneson, Hydrogen doesn’t seem to make any reaction to this 
 		Chloride: Fine! I guess I’ll just leave then! You’ve got no imagination, buzzkill!
 		<<clearPosition Right1>>
 		<<setExpression Hydrogen Happy>>
-		<<setFocus Hydrogen true>>
 		Narration: Chloride storms out, leaving just Hydrogen and Loneson. Hydrogen seems to be even more relieved now that Chloride is gone. A bank heist would have been pretty cool, he just didn’t trust Chloride to successfully pull it off and not leave him behind.
 		Hydrogen: *phew*
 		Narration: Perhaps it was for the best that this pair didn’t happen.
@@ -42,7 +37,6 @@ Narration: Unlike Loneson, Hydrogen doesn’t seem to make any reaction to this 
 		Chloride: You going to butt in anymore? No? Good.
 -> Maybe just let this one play out
 <<setExpression Loneson Neutral>>
-<<setFocus Hydrogen true>>
 Chloride: Alright, Hydrogen, so here’s the plan:
 <<setExpression Hydrogen Sad>>
 Narration: Chloride then begins her incredibly long winded explanation. The plan itself seems to be devoid of any logical cohesion whatsoever, instead opting for a narrative play by play of how all the victims of Chloride’s little endeavor would act. She’s even giving them little voicelines, which would be funny and cute if it weren’t for the fact that this was supposed to be a real plan.
@@ -60,7 +54,6 @@ Narration: Hydrogen is looking extremely concerned at the “plan” that Chlori
 	<<setExpression Loneson Happy>>
 	Loneson: (Thinking) Ah, Hydrogen is definitely going to put a stop to this plan, finally.
 	<<setExpression Chloride Neutral>>
-	<<setFocus Loneson false>>
 	Hydrogen: Well for one, the actual getaway plan doesn’t seem to be very solid. Your plan is to call an Uber to pick us up to get away. Well, if we were to go in guns blazing, Uber prices would be much higher in the area due to surge pricing, so it really wouldn't be financially feasible to use as a getaway vehicle. Don’t you have a car?
 	<<setExpression Chloride Sad>>
 	Chloride: I lost my license.
@@ -73,7 +66,6 @@ Narration: Hydrogen is looking extremely concerned at the “plan” that Chlori
 	<<setExpression Chloride Flushed>>
 	<<setExpression Hydrogen Happy>>
 	Narration: Hydrogen and Chloride start formulating over this new plan. They seem pretty invested into actually robbing people now. Hydrogen keeps bringing out new diagrams and maps, and both of them are getting really invested into this. They seem to be bonding, and having fun, but at what cost?
-	<<setFocus Loneson true>>
 	<<setExpression Loneson Sad>>
 	Loneson: …
 	<<clearPosition Left1>>
