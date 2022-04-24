@@ -2,16 +2,36 @@
 tags:
 ---
 <<clearPosition All>>
+<<setPosition Carbon Left2>>
+<<setPosition Chloride Right1>>
+<<setPosition Loneson Left1>>
+<<setExpression Carbon Neutral>>
+<<setExpression Chloride Happy>>
+<<setExpression Loneson Neutral>>
+<<setFocus Loneson false>>
+<<setFocus Carbon false>>
+<<setFocus Chloride true>>
 Chloride: Oh hey Bonbon!
+<<setFocus Carbon true>>
+<<clearPosition Left2>>
+<<setExpression Carbon Happy>>
+<<setPosition Carbon Right2>>
 Carbon: Hey Chlor!
+<<setFocus Loneson true>>
 -> Loneson: Hey Chlor!
+	<<setExpression Chloride Angry>>
 	Chloride: You don’t get to call me that.
+	<<setExpression Carbon Neutral>>
 	Carbon: …
 	Loneson: …
+	<<setExpression Chloride Neutral>>
 	Chloride: …
 	Loneson: … Sooo… you two know each other I presume?
 -> Loneson: Oh, so you two know each other?
+<<setExpression Carbon Happy>>
 Carbon: Of course we do! We were university buddies!
+<<setExpression Chloride Happy>>
+<<setFocus Loneson false>>
 Chloride: Go Quarks!
 Carbon: Go Quarks!
 Narration: The Quark is the mascot of ULWE, the University of the Laboratory West End. They were bitter rivals with the Leptons, students from ULEE. Chloride was known to cause… incidents due to this rivalry which the school has since covered up.
@@ -20,17 +40,25 @@ Narration: Carbon and Chloride jump in the air and high five each other at the v
 Chloride: Oh man, it’s been so long! How have you been, Bonbon?
 Carbon: Oh it’s great! I’m really putting my agricultural sciences degree to good use!
 Chloride: Oh that’s great! I’ve been putting my toxicology degree to great use too!
+<<setExpression Carbon Neutral>>
 Carbon: Wow! I’m not sure how I feel about that!
 Chloride: I feel great!
 Carbon: Yeah, I figured.
+<<setFocus Loneson true>>
 Loneson: Wow, you guys seem really close.
+<<setExpression Chloride Flushed>>
 Chloride: We were roommates.
+<<setExpression Carbon Happy>>
 Carbon: Mhm!
 Narration: They were roommates.
 Carbon: Yeah, we were in a dorm with a bunch of other nonmetals.
+<<setExpression Chloride Happy>>
+<<setFocus Loneson false>>
 Chloride: Plus Hydrogen.
+<<setExpression Carbon Neutral>>
 Carbon: I don’t think Hydrogen lived there legally though…
 Chloride: Regardless…
+<<setFocus Loneson true>>
 -> Loneson: “Hydrogen lived with you?”
 	Chloride: Yeah, we set him on fire!
 	Carbon: YOU set him on fire. I just helped you put him out.
@@ -38,15 +66,21 @@ Chloride: Regardless…
 	Chloride: When I set Hydrogen on fire!
 	Loneson: What?
 	Carbon: Don’t worry, we put him out.
+<<setFocus Carbon false>>
 Loneson: I feel like I need a bit more information here.
 Chloride: So you know how you put a bucket of water at the top of a door so when someone walks through it falls on them?
 Loneson: Yeah…
 Chloride: Well I did that but with olive oil.
+<<setExpression Loneson Angry>>
 Loneson: Why?
 Chloride: It’s stickier.
+<<setFocus Carbon true>>
 Carbon: The bucket was for me, her new roommate, but ‘Gen walked through the door smoking a joint and instead of the surprise being sticky it was infernal.
+<<setExpression Loneson Neutral>>
 Chloride: Bonbon was nearby and blasted him with an old fashioned fire extinguisher. It was great, he was a completely foamy incoherent mess.
+<<setFocus Loneson false>>
 Carbon: Yeah it was hilari… I mean tragic situation. I am very thankful that Hydrogen is okay, at least physically.
+<<setExpression Carbon Happy>>
 Chloride: Well, mental scarring is the best form of scarring anyway. Remember the time we put Gold in the laundry machine to experience the wonders of the gold rush?
 Carbon: Ooh, or the time when we gave Sulfur skunk spray in a bottle and told him it was deodorant!
 Chloride: And it was actually better than his usual musk!
@@ -54,11 +88,16 @@ Carbon: Or that time with Potassium…
 Chloride: Ooh and that time when we pranked Silicone!
 Carbon: Ooh, that reminds me of what we did to Lithium!
 Narration: More and more of Carbon’s mannerism and speech patterns began to match Chloride. It is almost as if the soul of Chloride was seeping into Carbon’s being, assimilating until it eventually consumes Carbon whole. All Chloride needs is one sentence to create a copy of herself.
+<<setFocus Loneson true>>
+<<setExpression Loneson Sad>>
 Chloride: Ah, we should try to relive those college days.
 Narration: Their eyes both meet Loneson’s gaze, as if they were a pack of leopards eyeing up a wounded gazelle.
 -> Run
 -> Run
+<<setFocus Carbon false>>
+<<setFocus Chloride false>>
 Narration: Let’s just be honest, Loneson had no chance of running away. Have you seen his muscle mass? That’s right. I think not.
+<<setFocus Loneson false>>
 Narration: He was then \[Data Expunged\]. But he did complete his goal of matching Carbon and Chloride in the end.
 Narration: That is a win, right?
 <<succeeded CCl4 CarbonTetrachloride>>

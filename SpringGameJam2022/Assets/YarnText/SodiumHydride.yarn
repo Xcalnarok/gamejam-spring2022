@@ -2,13 +2,30 @@
 tags:
 ---
 <<clearPosition All>>
+<<setPosition Hydrogen Left2>>
+<<setPosition Sodium Right1>>
+<<setPosition Loneson Left1>>
+<<setExpression Hydrogen Neutral>>
+<<setExpression Sodium Neutral>>
+<<setExpression Loneson Neutral>>
+<<setFocus Loneson false>>
+<<setFocus Hydrogen true>>
+<<setFocus Sodium true>>
 Sodium: Hey Hydrogen.
 Hydrogen: Hey Sodium.
 Narration: While they don’t seem to not get along, they don’t seem to be all that interested in each other as well.
 Sodium: Well, what should we do?
 Hydrogen: I guess I can just watch you play video games…
 Sodium: Sure, I guess.
+<<setFocus Loneson true>>
+<<setFocus Hydrogen false>>
+<<setFocus Sodium false>>
 Loneson: (Thinking) Riveting…
+<<clearPosition Left2>>
+<<setPosition Hydrogen Right2>>
+<<setFocus Loneson false>>
+<<setFocus Hydrogen true>>
+<<setFocus Sodium true>>
 Narration: Sodium boots up a round of Apex and solo queues into a match. Sodium and Hydrogen don’t say much to each other as the round starts. Their “date” appears to be stagnating.
 Hydrogen: Sooo… is the game just running around picking up items?
 Sodium: For the first part, yeah.
@@ -16,10 +33,12 @@ Hydrogen: Isn’t that boring?
 Sodium: A bit, yeah. Apex is one of the fastest paced battle royales though.
 Hydrogen: Oh.
 -> Offer a better idea
+    <<setFocus Loneson true>>
 	Loneson: Why don’t you try to play a co-op game instead?
 	Sodium: Can’t pause a multiplayer game.
 	Narration: This is something some parents still can’t seem to understand.
 	Hydrogen: Honestly, it’s fine Mr. Loneson. I’m just having fun watching.
+    <<setFocus Loneson false>>
 	Narration: Hydrogen is lying. He has no idea what’s going on in the game and is almost bored to tears.
 -> Try to let this play out
 Hydrogen: …
@@ -44,9 +63,13 @@ Narration: Hydrogen looks to Loneson for guidance in this situation.
 Narration: Loneson gives a slight nod and Hydrogen passes the joint to Sodium. Sodium takes a big puff.
 Sodium: Whew! I’m all riled up! Thanks Hydrogen!
 Hydrogen: Yeah…
-Narration: Both Hydrogen and Loneson both seem a bit confused. Loneson turns to hydrogen
+<<clearPosition Right2>>
+<<setPosition Hydrogen Center>>
+Narration: Both Hydrogen and Loneson both seem a bit confused. Loneson turns to Hydrogen.
 Loneson: I don’t think weed is supposed to do that.
 Hydrogen: Yeah, it’s main effect is as a depressant, he shouldn’t be getting more aggressive. It should lower his energy.
+<<clearPosition Center>>
+<<setPosition Hydrogen Right2>>
 Narration: And yet, Sodium’s mannerism quickly evolved into a far scarier version of his sober self. Hydrogen’s interest seemed to be piqued. This date might be going somewhere yet.
 Sodium: What are you? A pacifist, you Halogen dip? Go back to the West End, idiot!
 Hydrogen: Yeah! Tell them, Sodium!
