@@ -7,6 +7,7 @@ public class YarnCustomCommand : MonoBehaviour
 {
     // Drag and drop your Dialogue Runner into this variable.
     public DialogueRunner dialogueRunner;
+    public DialogueManager dialogueManager;
 
     public void Awake()
     {
@@ -34,30 +35,36 @@ public class YarnCustomCommand : MonoBehaviour
     private void setPositionCmd(string actor, string position)
     {
         Debug.Log("COMMAND: setPositionCmd " + actor + " " + position);
+        dialogueManager.setPositionCmd(actor, position);
     }
 
     private void setExpressionCmd(string actor, string expression)
     {
         Debug.Log("COMMAND: setPositionCmd " + actor + " " + expression);
+        dialogueManager.setExpressionCmd(actor, expression);
     }
 
     private void setFocusCmd(string actor, string state)
     {
         Debug.Log("COMMAND: setFocusCmd " + actor + " " + state);
+        dialogueManager.setFocusCmd(actor, state);
     }
 
     private void clearPositionCmd(string position)
     {
         Debug.Log("COMMAND: clearPosition " + position);
+        dialogueManager.clearPositionCmd(position);
     }
 
     private void failedCmd()
     {
         Debug.Log("COMMAND: failedCmd");
+        dialogueManager.failedCmd();
     }
 
     private void succeededCmd(string name, string description)
     {
         Debug.Log("COMMAND: setPositionCmd " + name + " " + description);
+        dialogueManager.succeededCmd(name, description);
     }
 }
