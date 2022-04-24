@@ -16,4 +16,9 @@ MonoBehaviour:
   scenes:
   - {fileID: 102900000, guid: d7784da36bfbd4eb7b9349b4034cf339, type: 3}
   - {fileID: 102900000, guid: 7181a1e1de97646c9b5e48a8c60f8264, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  bondableElements:
+  - Hydrogen
+  - Chlorine
   readyToBond: 0

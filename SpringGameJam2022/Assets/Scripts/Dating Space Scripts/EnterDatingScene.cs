@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class EnterDatingScene : MonoBehaviour
 {
 
-    public UnityEditor.SceneAsset sceneChange;
-
     [SerializeField]
     private Canvas screen;
 
@@ -23,30 +21,54 @@ public class EnterDatingScene : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        ElementInfo newElementInfo = collision.gameObject.GetComponent<ElementInfo>();
 
-        Debug.Log(newElementInfo.GetElementName());
-
-        if (newElementInfo.BondReady() || elementInfo.BondReady())
+        if (collision.gameObject.CompareTag("Element"))
         {
-            string elemOne = elementInfo.GetElementName();
-            string elemTwo = newElementInfo.GetElementName();
 
-            if (elemTwo == "Hydrogen")
-            {
-                confirmationScreen.PopUp(
-                    elemOne,
-                    elemTwo,
-                    elementInfo.GetElementScene(0));
-            }
-            else if (elemTwo == "Chlorine")
-            {
-                confirmationScreen.PopUp(
-                    elemOne,
-                    elemTwo,
-                    elementInfo.GetElementScene(1));
-            }
+            ElementInfo newElementInfo = collision.gameObject.GetComponent<ElementInfo>();
 
+            Debug.Log(newElementInfo.GetElementName());
+
+            if (newElementInfo.BondReady() || elementInfo.BondReady())
+
+            {
+                string elemOne = elementInfo.GetElementName();
+                string elemTwo = newElementInfo.GetElementName();
+
+                if (elementInfo.CheckIfPossibleElement(elemTwo))
+                {
+
+                    if (elemTwo == "Hydrogen")
+                    {
+                        confirmationScreen.PopUp(
+                            elemOne,
+                            elemTwo,
+                            elementInfo.GetElementScene(0));
+                    }
+                    else if (elemTwo == "Chlorine")
+                    {
+                        confirmationScreen.PopUp(
+                            elemOne,
+                            elemTwo,
+                            elementInfo.GetElementScene(1));
+                    }
+                    else if (elemTwo == "Carbon")
+                    {
+                        confirmationScreen.PopUp(
+                            elemOne,
+                            elemTwo,
+                            elementInfo.GetElementScene(2));
+                    }
+                    else if (elemTwo == "Sodium")
+                    {
+                        confirmationScreen.PopUp(
+                            elemOne,
+                            elemTwo,
+                            elementInfo.GetElementScene(3));
+                    }
+
+                }
+            }
         }
     }
 }

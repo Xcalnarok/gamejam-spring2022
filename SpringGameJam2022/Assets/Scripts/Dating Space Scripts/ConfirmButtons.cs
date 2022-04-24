@@ -27,6 +27,7 @@ public class ConfirmButtons : MonoBehaviour
 
     public void YesButton()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(scene.name);
     }
 
