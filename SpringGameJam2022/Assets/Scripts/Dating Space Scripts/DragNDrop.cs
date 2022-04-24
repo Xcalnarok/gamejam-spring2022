@@ -13,10 +13,14 @@ public class DragNDrop : MonoBehaviour
     private Shakey objectMovement;
     private ElementInfo elementInfo;
 
+    private SpriteRenderer sprite;
+
     private void Start()
     {
         objectMovement = gameObject.GetComponent<Shakey>();
         elementInfo = gameObject.GetComponent<ElementInfo>();
+
+        sprite = gameObject.GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -30,6 +34,7 @@ public class DragNDrop : MonoBehaviour
         objectMovement.MovementOff();
         difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.parent.position;
         elementInfo.SetBondOn();
+        sprite.sortingLayerName = "Below";
         
     }
 
@@ -44,5 +49,6 @@ public class DragNDrop : MonoBehaviour
         mainObject.transform.position = transform.position;
 
         elementInfo.SetBondOff();
+        sprite.sortingLayerName = "Default";
     }
 }
