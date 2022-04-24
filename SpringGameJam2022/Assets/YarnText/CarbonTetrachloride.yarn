@@ -1,6 +1,7 @@
 ﻿title: CarbonTetrachloride
 tags:
 ---
+<<clearPosition All>>
 Chloride: Oh hey Bonbon!
 Carbon: Hey Chlor!
 -> Loneson: Hey Chlor!
@@ -50,7 +51,7 @@ Chloride: Well, mental scarring is the best form of scarring anyway. Remember th
 Carbon: Ooh, or the time when we gave Sulfur skunk spray in a bottle and told him it was deodorant!
 Chloride: And it was actually better than his usual musk!
 Carbon: Or that time with Potassium…
-Chlorine: Ooh and that time when we pranked Silicone!
+Chloride: Ooh and that time when we pranked Silicone!
 Carbon: Ooh, that reminds me of what we did to Lithium!
 Narration: More and more of Carbon’s mannerism and speech patterns began to match Chloride. It is almost as if the soul of Chloride was seeping into Carbon’s being, assimilating until it eventually consumes Carbon whole. All Chloride needs is one sentence to create a copy of herself.
 Chloride: Ah, we should try to relive those college days.
@@ -58,8 +59,7 @@ Narration: Their eyes both meet Loneson’s gaze, as if they were a pack of leop
 -> Run
 -> Run
 Narration: Let’s just be honest, Loneson had no chance of running away. Have you seen his muscle mass? That’s right. I think not.
-Narration: He was then \[Data Expunged\]. But he did complete his goal of matching Carbon and Chlorine in the end.
+Narration: He was then \[Data Expunged\]. But he did complete his goal of matching Carbon and Chloride in the end.
 Narration: That is a win, right?
-<<failed>>
-
+<<succeeded CCl4 CarbonTetrachloride>>
 ===
