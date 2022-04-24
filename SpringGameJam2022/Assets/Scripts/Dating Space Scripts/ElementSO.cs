@@ -7,6 +7,8 @@ public class ElementSO : ScriptableObject
 {
     public string elementName;
     public List<UnityEditor.SceneAsset> scenes;
+
+    public List<string> bondableElements;
         
 
     public bool readyToBond;

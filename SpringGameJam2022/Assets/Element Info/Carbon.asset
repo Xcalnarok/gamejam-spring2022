@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Carbon
   m_EditorClassIdentifier: 
   elementName: Carbon
-  scenes: []
+  scenes:
+  - {fileID: 102900000, guid: f7822beec819f411d837a7a20294f464, type: 3}
+  - {fileID: 102900000, guid: a65df6714dce745fe934c17c3b40c425, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  bondableElements:
+  - Hydrogen
+  - Chlorine
   readyToBond: 0

@@ -17,6 +17,11 @@ public class ElementInfo : MonoBehaviour
         return elementInfo.scenes[num];
     }
 
+    public bool CheckIfPossibleElement(string element)
+    {
+        return elementInfo.bondableElements.Contains(element);
+    }
+
     public bool BondReady()
     {
         return elementInfo.readyToBond;
