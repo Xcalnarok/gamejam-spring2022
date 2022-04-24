@@ -17,7 +17,7 @@ Chloride: …
 <<setFocus Chloride false>>
 <<setFocus Loneson true>>
 Loneson: Sodium, this is Chloride.
-<<sefFocus Chloride true>>
+<<setFocus Chloride true>>
 <<setFocus Sodium true>>
 Sodium: Yes, I’m well aware of her.
 Chloride: Ditto.
