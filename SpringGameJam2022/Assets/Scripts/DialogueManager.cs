@@ -88,11 +88,11 @@ public class DialogueManager : MonoBehaviour
         spriteList3.Add(carbonSadImg);
 
         List<Sprite> spriteList4 = new List<Sprite>();
-        spriteList4.Add(carbonAngryImg);
-        spriteList4.Add(carbonFlushedImg);
-        spriteList4.Add(carbonHappyImg);
-        spriteList4.Add(carbonNeutralImg);
-        spriteList4.Add(carbonSadImg);
+        spriteList4.Add(lonesonAngryImg);
+        spriteList4.Add(lonesonAngryImg);
+        spriteList4.Add(lonesonAngryImg);
+        spriteList4.Add(lonesonAngryImg);
+        spriteList4.Add(lonesonAngryImg);
 
         actorList = new List<List<Sprite>>();
         actorList.Add(spriteList0);
