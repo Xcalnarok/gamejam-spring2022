@@ -11,10 +11,12 @@ public class DragNDrop : MonoBehaviour
     private Vector2 difference = Vector2.zero;
 
     private Shakey objectMovement;
+    private ElementInfo elementInfo;
 
     private void Start()
     {
         objectMovement = gameObject.GetComponent<Shakey>();
+        elementInfo = gameObject.GetComponent<ElementInfo>();
     }
 
     private void Update()
@@ -27,8 +29,8 @@ public class DragNDrop : MonoBehaviour
     {
         objectMovement.MovementOff();
         difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.parent.position;
+        elementInfo.SetBondOn();
         
-        Debug.Log(difference);
     }
 
     private void OnMouseDrag()
@@ -40,5 +42,7 @@ public class DragNDrop : MonoBehaviour
     {
         objectMovement.MovementOn();
         mainObject.transform.position = transform.position;
+
+        elementInfo.SetBondOff();
     }
 }

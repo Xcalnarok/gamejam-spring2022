@@ -11,4 +11,24 @@ public class ElementInfo : MonoBehaviour
     {
         return elementInfo.elementName;
     }
+
+    public UnityEditor.SceneAsset GetElementScene(int num)
+    {
+        return elementInfo.scenes[num];
+    }
+
+    public bool BondReady()
+    {
+        return elementInfo.readyToBond;
+    }
+
+    public void SetBondOn()
+    {
+        elementInfo.readyToBond = true;
+    }
+
+    public void SetBondOff()
+    {
+        elementInfo.readyToBond = false;
+    }
 }

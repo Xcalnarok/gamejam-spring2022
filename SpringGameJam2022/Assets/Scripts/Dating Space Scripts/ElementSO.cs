@@ -6,21 +6,12 @@ using UnityEngine;
 public class ElementSO : ScriptableObject
 {
     public string elementName;
-    public string sceneName;
+    public List<UnityEditor.SceneAsset> scenes;
+        
 
     public bool readyToBond;
 
     private void Awake()
-    {
-        readyToBond = false;
-    }
-
-    public void SetBondOn()
-    {
-        readyToBond = true;
-    }
-
-    public void SetBondOff()
     {
         readyToBond = false;
     }

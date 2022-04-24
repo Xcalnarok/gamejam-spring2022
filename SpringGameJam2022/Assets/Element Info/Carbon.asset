@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d49fef378b53f4885903c7c5357a3b6e, type: 3}
-  m_Name: Hydrogen
+  m_Name: Carbon
   m_EditorClassIdentifier: 
-  elementName: Hydrogen
-  scenes:
-  - {fileID: 102900000, guid: d7784da36bfbd4eb7b9349b4034cf339, type: 3}
+  elementName: Carbon
+  scenes: []
   readyToBond: 0

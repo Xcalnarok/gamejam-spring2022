@@ -7,20 +7,27 @@ using TMPro;
 
 public class ConfirmButtons : MonoBehaviour
 {
+    [SerializeField]
+    private UnityEditor.SceneAsset scene;
 
-    public void PopUp()
+    [SerializeField]
+    private TextMeshProUGUI confirmMatchText;
+
+    public void PopUp(string elementOne, string elementTwo, UnityEditor.SceneAsset chosenScene)
     {
-
-        Debug.Log("please");
         gameObject.SetActive(true);
-        //Time.timeScale = 0;
+        Time.timeScale = 0;
 
+        confirmMatchText.text = "Do you want to bond " + elementOne +
+            " and " + elementTwo + "?";
+
+        scene = chosenScene;
+        Debug.Log(chosenScene);
     }
-
 
     public void YesButton()
     {
-
+        SceneManager.LoadScene(scene.name);
     }
 
     public void NoButton()

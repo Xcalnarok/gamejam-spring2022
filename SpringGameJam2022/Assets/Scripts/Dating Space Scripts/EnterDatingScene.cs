@@ -13,18 +13,40 @@ public class EnterDatingScene : MonoBehaviour
 
     private ConfirmButtons confirmationScreen;
 
+    private ElementInfo elementInfo;
+
     private void Start()
     {
         confirmationScreen = screen.GetComponent<ConfirmButtons>();
+        elementInfo = gameObject.GetComponent<ElementInfo>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<ElementInfo>().GetElementName()
-            == "Hydrogen")
+        ElementInfo newElementInfo = collision.gameObject.GetComponent<ElementInfo>();
+
+        Debug.Log(newElementInfo.GetElementName());
+
+        if (newElementInfo.BondReady() || elementInfo.BondReady())
         {
-            confirmationScreen.PopUp();
-            //Debug.Log("works");
+            string elemOne = elementInfo.GetElementName();
+            string elemTwo = newElementInfo.GetElementName();
+
+            if (elemTwo == "Hydrogen")
+            {
+                confirmationScreen.PopUp(
+                    elemOne,
+                    elemTwo,
+                    elementInfo.GetElementScene(0));
+            }
+            else if (elemTwo == "Chlorine")
+            {
+                confirmationScreen.PopUp(
+                    elemOne,
+                    elemTwo,
+                    elementInfo.GetElementScene(1));
+            }
+
         }
     }
 }
