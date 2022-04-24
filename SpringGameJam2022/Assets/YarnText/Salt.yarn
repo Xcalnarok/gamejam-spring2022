@@ -1,5 +1,13 @@
 ﻿title: Salt
 ---
+<<clearPosition All>>
+<<setPosition Sodium Left1>>
+<<setPosition Chlorine Right1>>
+<<setPosition Loneson Center>>
+<<setExpression Sodium Angry>>
+<<setExpression Chlorine Angry>>
+<<setFocus Sodium true>>
+<<setFocus Chlorine false>>
 Sodium: …
 Chlorine: …
 Scientist: Sodium, this is Chlorine.
@@ -11,7 +19,7 @@ Scientist: (Thinking) Uh oh. They don’t seem to like each other very much.
     Sodium: …
     Chlorine: I’m just going to go now.
     Sodium: Ditto.
-    failstate
+    <<failed>>
 -> Intervene
     <<jump Intervene>>
 ===
@@ -53,5 +61,5 @@ Narration: Neither has a character well suited towards this task, and as such th
 	Chlorine: Yeah right! Fight me, you coward!
 
 Narration: And so, Sodium and Chlorine continued to play games through the afternoon, ordering takeout for dinner and just generally being the incredibly toxic gamers they were always meant to be. Together.
-winstate
+<<succeeded NaCl Salt>>
 ===
