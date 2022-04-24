@@ -104,127 +104,274 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hydrogen_Icon
+      name: SpringGameJamUIAssets-01_0
       rect:
         serializedVersion: 2
-        x: 263
-        y: 2339
-        width: 637
-        height: 699
-      alignment: 9
+        x: 22
+        y: 4346
+        width: 7956
+        height: 154
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b9a2c343aee0fe44b0f45d5f1a0f2af
-      internalID: 2075342543
+      spriteID: eea028eef2c251e4bbec8ac70a43530e
+      internalID: -1930408474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sodium_Icon
+      name: SpringGameJamUIAssets-01_1
+      rect:
+        serializedVersion: 2
+        x: 5198
+        y: 4346
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7222cdd1a654d5a43b47d2c66e73c2ed
+      internalID: -512375312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings Button-01_2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3326
+        width: 477
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c88fc2769a28041a4da1a7a9f384e8
+      internalID: 403326235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Home Button-01_3
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 3334
+        width: 594
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290fd3d5b82f2504d8b4293c479cd530
+      internalID: -854829420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackButton
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 3342
+        width: 547
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe41facdd3730414191ea920d779b2e9
+      internalID: -507599274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallery Button-01_5
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 3211
+        width: 887
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15474db9068512d40b7d9d37272e134f
+      internalID: 1032304935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gallery Frame
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 3057
+        width: 1519
+        height: 1246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c522a9eef6e88342aec1290e8e2ed35
+      internalID: 1260936455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hydrogen icon
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2338
+        width: 640
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61245b0104c02c4d891ea2fa9428b79
+      internalID: -1800295739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sodium icon
       rect:
         serializedVersion: 2
         x: 1057
         y: 2338
         width: 640
         height: 699
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fabce9a3d4f2b9449833c5a96836a66
-      internalID: -901010369
+      spriteID: fa3901a33b1018b42b02e3f592a02c51
+      internalID: -900282477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chlorine_Icon
+      name: Chlorine icon
       rect:
         serializedVersion: 2
-        x: 1846
-        y: 2338
+        x: 1837
+        y: 2347
         width: 640
         height: 699
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4af9d5087b4fefa4ea224128277b69f1
-      internalID: -1499334041
+      spriteID: fe7617b7327d4224fba5e4d77d5a097b
+      internalID: -237126044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carbon_Icon
+      name: carbon icon
       rect:
         serializedVersion: 2
         x: 2666
         y: 2338
         width: 637
         height: 699
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fd185a228beb3d45b6eefc0df2ffc12
-      internalID: 1707212861
+      spriteID: 5550bd9d582c9874e8f02b2d7a11a25a
+      internalID: 2117246437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Button
+      name: button
       rect:
         serializedVersion: 2
         x: 211
         y: 1824
         width: 1660
         height: 449
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b73afe2427bb3a4bba5ee17dfb6f217
-      internalID: -1946526974
+      spriteID: 6dc025a1851802c49b98c9247d3b16cc
+      internalID: 1772236636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Textbox
+      name: text box
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 8000
         height: 1775
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59c061305ec91f14cac4d092e3c8765d
-      internalID: -1969287402
+      spriteID: 39937d314f82f2445abf33d5144aaa39
+      internalID: -1458916773
       vertices: []
       indices: 
       edges: []
@@ -232,7 +379,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c78fc94e3d8cbe642a5b8bdfc3695c4f
+    spriteID: f574213affb91b245b73800e9c27901c
     internalID: 0
     vertices: []
     indices: 
@@ -240,12 +387,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Chlorine_Icon: -1499334041
-      Carbon_Icon: 1707212861
-      UI_Textbox: -1969287402
-      Sodium_Icon: -901010369
-      Hydrogen_Icon: 2075342543
-      UI_Button: -1946526974
+      Sodium icon: -900282477
+      BackButton: -507599274
+      button: 1772236636
+      Hydrogen icon: -1800295739
+      carbon icon: 2117246437
+      Home Button-01_3: -854829420
+      Gallery Button-01_5: 1032304935
+      SpringGameJamUIAssets-01_0: -1930408474
+      text box: -1458916773
+      SpringGameJamUIAssets-01_1: -512375312
+      gallery Frame: 1260936455
+      Settings Button-01_2: 403326235
+      Chlorine icon: -237126044
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
