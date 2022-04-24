@@ -47,7 +47,7 @@ public class Shakey : MonoBehaviour
                 countdown -= Time.deltaTime;
             }
 
-            Debug.Log(countdown);
+            //Debug.Log(countdown);
 
             transform.position = Vector2.MoveTowards(transform.position,
                 target, speed * Time.deltaTime);
@@ -73,10 +73,13 @@ public class Shakey : MonoBehaviour
         currentPosition = target;
     }
 
-    public void MovementSwitch()
+    public void MovementOn()
     {
-        allowMovement = allowMovement = true
-            ? false
-            : true;
+        allowMovement = true;
+    }
+
+    public void MovementOff()
+    {
+        allowMovement = false;
     }
 }
