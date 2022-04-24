@@ -996,6 +996,10 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3292657645953925570, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3292657645953925571, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1203,7 +1207,7 @@ PrefabInstance:
     - target: {fileID: 7778558434911714087, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1969287402, guid: bef011a5032e26f43b657f3dec20202f, type: 3}
+      objectReference: {fileID: 411469322, guid: bef011a5032e26f43b657f3dec20202f, type: 3}
     - target: {fileID: 7778558434911714087, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_Color.a
       value: 1
