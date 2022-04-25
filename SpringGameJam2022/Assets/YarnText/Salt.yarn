@@ -1,12 +1,5 @@
 ﻿title: Salt
 ---
-<<clearPosition All>>
-<<setPosition Sodium Left1>>
-<<setPosition Chloride Right1>>
-<<setPosition Loneson Center>>
-<<setExpression Sodium Neutral>>
-<<setExpression Chloride Neutral>>
-<<setExpression Loneson Neutral>>
 Sodium: …
 Chloride: …
 Loneson: Sodium, this is Chloride.
@@ -18,7 +11,6 @@ Loneson: (Thinking) Uh oh. They don’t seem to like each other very much.
     Sodium: …
     Chloride: I’m just going to go now.
     Sodium: Ditto.
-    <<failed>>
 -> Intervene
     <<jump Salt_Intervene>>
 ===
@@ -27,21 +19,15 @@ title: Salt_Intervene
 Loneson: Okay, there’s quite clearly some past beef between you.
 Sodium: Indeed.
 Chloride: You would say that, wouldn’t you, 50D1UM?
-<<setExpression Sodium Angry>>
 Sodium: Yes I would, C1H0R!N3. Your ability to ruin my KD is incredible, especially since we’re on the same team!
 Loneson: (Thinking) Oh, this has something to do with video games, doesn’t it?
 Chloride: Op is expensive! I’m not going to pay for your gear whenever you ask for it!
 Sodium: Says the one who buys Odin every chance she gets! It’s not even a good gun!
 Chloride: Spraying and praying is an important part of my tactical kit!
 Sodium: That’s because you couldn’t aim if your life depended on it!
-<<setExpression Chloride Angry>>
 Chloride: OH YOU WANT TO GO RIGHT NOW I CAN GO RIGHT NOW!
 Sodium: 1v1 ME IN BROFORCE I DARE YOU!
 Chloride: OH IT’S ON YOU IDIOTIC ALKALI!
-<<clear All>>
-<<setPosition Sodium Right2>>
-<<setPosition Chloride Right1>>
-<<setPosition Loneson Left2>>
 Narration: Sodium quickly turns on his Xbox and hands Chloride a controller. In no time at all they’re duking it out.
 Loneson: (Thinking) Wait… isn’t Broforce a co-op game?
 Narration: “50D1UM” and “C1H0R!N3” seem to be attempting to shoot the ground below each other in an effort to make each other fall to their death. 
@@ -55,22 +41,14 @@ Narration: Neither has a character well suited towards this task, and as such th
 	Chloride: You’re on!
 -> Intervene
 	Loneson: Look, you guys really need to work this anger out, it’s not producti…
-	<<setExpression Loneson Sad>>
 	Chloride: Shut up you lab coat dweeb! Look, this is you.
 	Narration: Chloride takes a third controller out and adds another character to their party, as both Chloride and Sodium stop shooting each other and instead prioritize this new character.
 	Loneson: …
 	Narration: With their powers combined, both of them trounced the poor idle character.
-	<<setExpression Chloride Happy>>
 	Chloride: Haha, suck it nerd!
 	Narration: While Chloride is busy taunting her lab coat laden victim she neglects to notice Sodium taking the opportunity to knock Chloride into the void.
-	<<setExpression Chloride Angry>>
-	<<setExpression Sodium Happy>>
-	<<setExpression Loneson Happy>>
 	Chloride: Ah no wait! Jerk! I want a rematch!
 	Sodium: You’ll just lose again, like you always do.
 	Chloride: Yeah right! Fight me, you coward!
-<<setExpression Chloride Flushed>>
-<<setExpression Sodium Flushed>>
 Narration: And so, Sodium and Chloride continued to play games through the afternoon, ordering takeout for dinner and just generally being the incredibly toxic gamers they were always meant to be. Together.
-<<succeeded NaCl Salt>>
 ===

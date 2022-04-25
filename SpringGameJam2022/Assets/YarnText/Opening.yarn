@@ -1,39 +1,24 @@
 ﻿title: Opening
 tags:
 ---
-<<clearPosition All>>
-<<setPosition Loneson Center>>
-<<setExpression Loneson Neutral>>
 Narration: In the labs of his workplace, Dr. Ian Loneson had a problem.
 Narration: Last Friday a girl asked Dr. Loneson out on a date. He said yes, but would soon come to regret this action.
-<<setExpression Loneson Sad>>
 Loneson: Why did I agree to the date? I am terrible with romance!
 Narration: The date is tonight, and he is not mentally prepared.
 Loneson: I just can’t do it. Every time I try to do anything remotely romantic, it’s just blown up in my face. I’m an emotional mess. Why can’t romance be something I understand, like chemistry?
-<<setPosition Carbon Right1>>
-<<setExpression Carbon Happy>>
 Carbon: Why can’t it?
-<<setExpression Loneson Angry>>
 Loneson: Well I mean romance is so complicated and unruly… Wait, who the heck are you?
 Carbon: I’m Carbon, the sixth element of the periodic table!
-<<setExpression Loneson Neutral>>
 Loneson: Okay… I’m hallucinating aren’t I?
-<<setExpression Carbon Neutral>>
 Carbon: Yeah.
 Loneson: Oh wow, I didn’t expect you to say that for some reason.
 Carbon: What, you think it’s normal for elements of the periodic table to personify and talk to you? Of course you’re hallucinating.
 Carbon: Still, your brain is giving you an out. While you’re in this state, you can think of romance just like you think of chemistry. Mix and match, see what works and doesn’t. The world is your playground. Besides, you can’t be any worse at social interaction than Sodium is.
-<<setPosition Sodium Left1>>
-<<setExpression Sodium Neutral>>
 Sodium: …Fair. 
 Loneson: Well if this is the only chance I have, I better take it. 
-<<setPosition Chloride Right0>>
-<<setExpression Chloride Happy>>
 Chloride: Oh this’ll be fun…
 Carbon: Chlor, play nice…
 Carbon: Anyway, if you’re looking for a place to start, Hydrogen is very agreeable.
-<<setPosition Hydrogen Left0>>
-<<setExpression Hydrogen Neutral>>
 Narration: Hydrogen gave a nice little welcome motion towards Loneson.
 Loneson: This is as good a time as any. Let’s get to work!
 ===
