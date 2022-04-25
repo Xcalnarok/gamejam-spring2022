@@ -14,21 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Skylar - DatingSpace.unity
     guid: 3b8bd504610cc449a928cc995eb47389
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Placeholder Scenes/CCl4Placeholder.unity
     guid: 745472e589ef4b14fbe405c120e5cd48
