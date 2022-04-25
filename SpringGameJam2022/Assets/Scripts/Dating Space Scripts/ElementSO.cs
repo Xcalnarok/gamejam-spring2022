@@ -6,7 +6,7 @@ using UnityEngine;
 public class ElementSO : ScriptableObject
 {
     public string elementName;
-    public List<UnityEditor.SceneAsset> scenes;
+    public List<string> scenes;
 
     public List<string> bondableElements;
         

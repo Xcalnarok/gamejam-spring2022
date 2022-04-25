@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elementName: Carbon
   scenes:
-  - {fileID: 102900000, guid: 347028ca6f715f94d88ca7a6b431c3e3, type: 3}
-  - {fileID: 102900000, guid: ead5bd9320d31f042a10decd90b65611, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - C2H4Placeholder
+  - CCl4Placeholder
+  - 
+  - 
   bondableElements:
   - Hydrogen
   - Chlorine

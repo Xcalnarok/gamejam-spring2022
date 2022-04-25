@@ -5,10 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-	public void ChangeScene(UnityEditor.SceneAsset sceneObject)
+	public void ChangeScene(string sceneDestination)
 	{
-		string sceneName = sceneObject.name;
-		SceneManager.LoadScene(sceneName);
+		SceneManager.LoadScene(sceneDestination);
 	}
 	//	public void ChangeScene(string sceneName)
 	//	{

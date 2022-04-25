@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elementName: Sodium
   scenes:
-  - {fileID: 102900000, guid: 2245aaf28a539f047877af472b899912, type: 3}
-  - {fileID: 102900000, guid: 86e7fb9c2fc939946b8c0fa12981e75e, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - NaHPlaceholder
+  - SaltPlaceholder
+  - 
+  - 
   bondableElements:
   - Hydrogen
   - Chlorine

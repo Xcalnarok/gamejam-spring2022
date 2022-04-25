@@ -12,7 +12,11 @@ public class ElementInfo : MonoBehaviour
         return elementInfo.elementName;
     }
 
-    public UnityEditor.SceneAsset GetElementScene(int num)
+    //public UnityEditor.SceneAsset GetElementScene(int num)
+    //{
+    //    return elementInfo.scenes[num];
+    //}
+    public string GetElementScene(int num)
     {
         return elementInfo.scenes[num];
     }

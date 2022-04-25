@@ -8,12 +8,12 @@ using TMPro;
 public class ConfirmButtons : MonoBehaviour
 {
     [SerializeField]
-    private UnityEditor.SceneAsset scene;
+    string scene;
 
     [SerializeField]
     private TextMeshProUGUI confirmMatchText;
 
-    public void PopUp(string elementOne, string elementTwo, UnityEditor.SceneAsset chosenScene)
+    public void PopUp(string elementOne, string elementTwo, string chosenScene)
     {
         gameObject.SetActive(true);
         Time.timeScale = 0;
@@ -28,7 +28,7 @@ public class ConfirmButtons : MonoBehaviour
     public void YesButton()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene(scene);
     }
 
     public void NoButton()

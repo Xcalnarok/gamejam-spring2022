@@ -1080,7 +1080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c4bc2c75cd94a9fa76e2ecbbda32d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: {fileID: 102900000, guid: d7784da36bfbd4eb7b9349b4034cf339, type: 3}
+  scene: 
   confirmMatchText: {fileID: 469863886}
 --- !u!1 &1021419327
 GameObject:
