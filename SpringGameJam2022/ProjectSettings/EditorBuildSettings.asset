@@ -14,19 +14,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Skylar - DatingSpace.unity
     guid: 3b8bd504610cc449a928cc995eb47389
-  - enabled: 1
-    path: Assets/Scenes/Placeholder Scenes/NaHPlaceholder.unity
-    guid: d7784da36bfbd4eb7b9349b4034cf339
-  - enabled: 1
-    path: Assets/Scenes/Placeholder Scenes/SaltPlaceholder.unity
-    guid: 7181a1e1de97646c9b5e48a8c60f8264
-  - enabled: 1
-    path: Assets/Scenes/Placeholder Scenes/HClPlaceholder.unity
-    guid: 1597bf7a0a6c54f2d901e7773864c797
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Placeholder Scenes/CCl4Placeholder.unity
-    guid: a65df6714dce745fe934c17c3b40c425
+    guid: 745472e589ef4b14fbe405c120e5cd48
   - enabled: 1
     path: Assets/Scenes/Placeholder Scenes/C2H4Placeholder.unity
-    guid: f7822beec819f411d837a7a20294f464
+    guid: 3ff00da06fdd3ab459da39a5a35692c9
   m_configObjects: {}
